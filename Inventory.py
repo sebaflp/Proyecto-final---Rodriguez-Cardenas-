@@ -1,5 +1,3 @@
-from ingredient import Ingredient
-
 class Inventory:
 
     def __init__(self, initial_inventory=None):

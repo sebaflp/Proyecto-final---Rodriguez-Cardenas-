@@ -1,5 +1,3 @@
-from ingredient import Ingredient
-
 class HotDog:
     def __init__(self, name, pan, salchicha, toppings, salsas, acompanante=None):
         self.name = name
