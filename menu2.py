@@ -28,7 +28,7 @@ class Menu:
             return
         print("\n--- Lista de HotDogs ---")
         for i, hot_dog in enumerate(self.hot_dogs, 1):
-            print(f"{i}. {hot_dog["nombre"]}")
+            print(f"{i}, {hot_dog}nombre")
 
 
     def verificar_inventario_hot_dog(self, nombre_hot_dog):
